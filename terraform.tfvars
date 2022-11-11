@@ -1,7 +1,3 @@
 vpc_cidr_block="10.0.0.0/16"
-env_prefix="dev"
-subnet_cidr_block="10.0.10.0/24"
-avail_zone="us-east-1a"
-my_ip="39.32.78.134/32"
-instance_type="t2.micro"
-public_key_location="/home/bilal/.ssh/id_rsa.pub"
+private_subnets_cidr_blocks=["10.0.1.0/24","10.0.2.0/24","10.0.3.0/24"]
+public_subnets_cidr_blocks=["10.0.4.0/24","10.0.5.0/24","10.0.6.0/24"]
